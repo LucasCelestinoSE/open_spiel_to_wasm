@@ -1,0 +1,12 @@
+O alvo referenciado como $<TARGET_OBJECTS:open_spiel_core> é a biblioteca open_spiel_core.
+ Esta biblioteca é criada pela instrução
+  add_library(open_spiel_core OBJECT ${OPEN_SPIEL_CORE_FILES}),
+   que compila os arquivos listados em OPEN_SPIEL_CORE_FILES em uma biblioteca de objetos.
+
+
+A expressão $<TARGET_OBJECTS:open_spiel_core> é uma expressão do gerador CMake que 
+obtém a lista de todos os arquivos de objeto que são produzidos quando a biblioteca
+ open_spiel_core é compilada. Esses arquivos de objeto são então usados para construir 
+ outras bibliotecas ou executáveis. Neste caso, eles estão sendo adicionados à variável
+  OPEN_SPIEL_OBJECTS, que parece ser usada para construir uma biblioteca ou executável 
+  maior que inclui open_spiel_core junto com várias outras bibliotecas.

@@ -1,0 +1,11 @@
+exemple.c -> #ABSL #spiel.h #spiel_utils.h
+#spiel_utils.h -> #ABSL
+#spiel.h -> #ABSL #game_parameters.h #observer.h #spiel_globals #spiel_utils.h
+#spiel_globals -> #spiel_utils.h
+#observer.h -> game_parameters.h#
+#game_parameters.h -> #ABSL #spiel_utils.h
+
+
+https://hackernoon.com/c-to-webassembly-using-bazel-and-emscripten-4him3ymc
+
+Arquivos usados: observer.h spiel_globals spiel_utils.h spiel.h game_parameters.h
