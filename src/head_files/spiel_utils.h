@@ -28,12 +28,12 @@
 #include <utility>
 #include <vector>
 
-#include "abseil-cpp/absl/random/uniform_real_distribution.h"
-#include "abseil-cpp/absl/strings/str_cat.h"
-#include "abseil-cpp/absl/time/clock.h"
-#include "abseil-cpp/absl/time/time.h"
-#include "abseil-cpp/absl/types/optional.h"
-#include "abseil-cpp/absl/types/span.h"
+#include "absl/random/uniform_real_distribution.h"
+#include "absl/strings/str_cat.h"
+#include "absl/time/clock.h"
+#include "absl/time/time.h"
+#include "absl/types/optional.h"
+#include "absl/types/span.h"
 
 // Code that is not part of the API, but is widely useful in implementations.
 

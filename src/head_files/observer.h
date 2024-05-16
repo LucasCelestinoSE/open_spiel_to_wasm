@@ -45,13 +45,13 @@
 #include <string>
 #include <vector>
 
-#include "abseil-cpp/absl/algorithm/container.h"
-#include "abseil-cpp/absl/base/attributes.h"
-#include "abseil-cpp/absl/container/flat_hash_set.h"
-#include "abseil-cpp/absl/container/inlined_vector.h"
-#include "abseil-cpp/absl/strings/string_view.h"
-#include "abseil-cpp/absl/strings/str_join.h"
-#include "abseil-cpp/absl/types/span.h"
+#include "absl/algorithm/container.h"
+#include "absl/base/attributes.h"
+#include "absl/container/flat_hash_set.h"
+#include "absl/container/inlined_vector.h"
+#include "absl/strings/string_view.h"
+#include "absl/strings/str_join.h"
+#include "absl/types/span.h"
 #include "game_parameters.h"
 #include "spiel_utils.h"
 

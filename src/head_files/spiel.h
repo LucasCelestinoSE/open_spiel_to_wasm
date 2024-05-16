@@ -27,11 +27,11 @@
 #include <utility>
 #include <vector>
 
-#include "abseil-cpp/absl/random/bit_gen_ref.h"
-#include "abseil-cpp/absl/strings/str_join.h"
-#include "abseil-cpp/absl/synchronization/mutex.h"
-#include "abseil-cpp/absl/types/optional.h"
-#include "abseil-cpp/absl/types/span.h"
+#include "absl/random/bit_gen_ref.h"
+#include "absl/strings/str_join.h"
+#include "absl/synchronization/mutex.h"
+#include "absl/types/optional.h"
+#include "absl/types/span.h"
 #include "game_parameters.h"
 #include "observer.h"
 #include "spiel_globals.h"

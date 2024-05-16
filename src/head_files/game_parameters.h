@@ -21,7 +21,7 @@
 #include <string>
 #include <utility>
 
-#include "abseil-cpp/absl/types/optional.h"
+#include "absl/types/optional.h"
 #include "spiel_utils.h"
 
 namespace open_spiel {
