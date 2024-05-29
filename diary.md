@@ -23,12 +23,12 @@ Tentativa de compilar um jogo que utiliza as funcionalidades **MINMAX** e **TIC_
         - Passar dados do cliente para o código compilado em WASM.
         - Utilização do `Embind` para reescrever funções ou classes em C++ para uso no JavaScript "normal".
         - Permitir envio de dados do cliente para o WASM via JavaScript.
+        - Resolvi um dos problemas relacionados ao não funcionamento do jogo no WASM, que são instruções que geram interrupção ou loops.
+        - A solução se comunica diretamente com um arquivo JS que carrega o `.wasm`.
+
 
 ## Perguntas na Orientação
-
-- Resolvi um dos problemas relacionados ao não funcionamento do jogo no WASM, que são instruções que geram interrupção ou loops.
-- Usei `Embind` para resolver o caso do input, permitindo a utilização de funções C++ no JavaScript.
-- A solução se comunica diretamente com um arquivo JS que carrega o `.wasm`.
+    - O wasm está aí não para substituir o JS mas para complementar, então achei que não foge do uso do wasm no projeto, há algum problema com essa solução ? 
 
 ## Próximos Passos
 
