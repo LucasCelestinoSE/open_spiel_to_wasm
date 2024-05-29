@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <input id = "helper_input"  type="text" placeholder="digite uma string aqui" value="">
+    <button id = "submit" type="submit"> click to set</button>
+  <script>
+    // Find out input value
+    function find_input_value() {
+        const helper_input_ = document.getElementById('helper_input').value;
+        // Using webAssembly here
+        console.log("get_input result:" + Module.get_input(helper_input_));
+        return helper_input_;
+    }
+    // Adding event listner to btn with id = submit
+    const btn = document.getElementById("submit");
+    btn.addEventListener('click', find_input_value);
+
+    // Initializing webAssembly from miniinput.js code that run code .wasm 
+    var Module = {
+      onRuntimeInitialized: function() {
+        console.log('get_input result: ' + Module.get_input('x'));
+        console.log('get_input result: ' + Module.get_input('o'));
+      }
+    };
+  </script>
+  <script src="maininput.js"></script>
+</html>
