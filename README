@@ -1,1 +1,3 @@
-#Para funcionar é preciso instalar a biblioteca ABSL no nível que está o CmakeLists.txt
+# Para funcionar é preciso instalar a biblioteca ABSL no nível que está o CmakeLists.txt.
+# Utilize o nodeJs para rodar os exemplos em javascript.
+# Vá para pasta emstests e vera implementações do cin e loop... 
