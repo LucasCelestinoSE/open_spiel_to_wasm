@@ -33,3 +33,5 @@ Tentativa de compilar um jogo que utiliza as funcionalidades **MINMAX** e **TIC_
 ## Próximos Passos
 
 - Aprender como funciona o loop no WebAssembly.
+- Seria possível fazer guardar os dados enviados pelo usuário na memória do arquivo compilado .wasm ? 
+- Testar essas 2 duas coisas.
