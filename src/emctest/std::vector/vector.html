@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Emscripten Example</title>
+    <script src="my_module.js"></script> <!-- Replace with your generated JavaScript file -->
+    <script>
+        // Wait for the Emscripten module to be ready
+        Module.onRuntimeInitialized = () => {
+            // Call the createVector function from the C++ module
+            const vector = Module.createVector();
+            
+            // Convert the returned vector to a JavaScript array and log it
+            const jsArray = [];
+            for (let i = 0; i < vector.size(); i++) {
+                jsArray.push(vector.get(i));
+            }
+
+            console.log("Values in the vector:", jsArray);
+        };
+    </script>
+</head>
+<body>
+    <h1>Emscripten Example</h1>
+    <p>Check the console for the output.</p>
+</body>
+</html>

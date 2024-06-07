@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.container{
+    
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: #0000ff;
+    border-color: white;
+    border-style: solid;
+    display: inline-block;
+}

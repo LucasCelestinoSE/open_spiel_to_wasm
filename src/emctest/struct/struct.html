@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo Emscripten</title>
+    
+</head>
+<body>
+    <script>
+        var Module = {
+            onRuntimeInitialized: function() {
+                var person = Module.findPersonAtLocation([10.2, 156.5]);
+                console.log('Found someone! Their name is ' + person.name + ' and they are ' + person.age + ' years old');
+            }
+        }
+    </script>
+    <script src="example.js"></script>
+</body>
+</html>
