@@ -1,37 +1,39 @@
-#include <emscripten/bind.h>
+#include <iostream>
+#include <sstream>
 #include <vector>
 
-using Player = int;
-using Action = int64_t;
+struct Person {
+    std::string name;
+    int age;
+    double height;
 
-struct PlayerAction {
-    Player player;
-    Action action;
-
-    bool operator==(const PlayerAction& other) const {
-        return player == other.player && action == other.action;
+    // Define como a struct será convertida para string
+    std::string toString() const {
+        std::ostringstream oss;
+        oss << "Name:" << name << ",Age:" << age << ",Height:" << height;
+        return oss.str();
     }
 };
 
-std::vector<PlayerAction> obterAcoesDosJogadores() {
-    std::vector<PlayerAction> acoes;
-    
-    PlayerAction acao1 = {1, 100};
-    PlayerAction acao2 = {2, 200};
-    
-    acoes.push_back(acao1);
-    acoes.push_back(acao2);
-    
-    return acoes;
+std::string vectorToString(const std::vector<Person>& people) {
+    std::ostringstream oss;
+    for (size_t i = 0; i < people.size(); ++i) {
+        oss << people[i].toString();
+        if (i != people.size() - 1) {
+            oss << ";"; // Adiciona um delimitador entre as structs
+        }
+    }
+    return oss.str();
 }
 
-// Bindings
-EMSCRIPTEN_BINDINGS(minhas_structs) {
-    emscripten::value_object<PlayerAction>("PlayerAction")
-        .field("player", &PlayerAction::player)
-        .field("action", &PlayerAction::action);
+int main() {
+    std::vector<Person> people = {
+        {"Alice", 30, 1.70},
+        {"Bob", 25, 1.80},
+        {"Charlie", 35, 1.75}
+    };
 
-    emscripten::register_vector<PlayerAction>("vector<PlayerAction>");
-
-    emscripten::function("obterAcoesDosJogadores", &obterAcoesDosJogadores);
+    std::string result = vectorToString(people);
+    std::cout << result << std::endl;
+    return 0;
 }

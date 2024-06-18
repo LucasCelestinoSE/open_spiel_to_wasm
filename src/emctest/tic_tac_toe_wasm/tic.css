@@ -1,14 +1,29 @@
-body{
+body {
     background-color: black;
 }
-.container{
-    
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-.square{
+
+.line {
+    margin: 0;
+}
+
+.square {
     width: 50px;
     height: 50px;
+    margin: 0;
     background-color: #0000ff;
-    border-color: white;
-    border-style: solid;
+    border: 1px solid white;
     display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px; /* Alinha o texto verticalmente */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
 }
