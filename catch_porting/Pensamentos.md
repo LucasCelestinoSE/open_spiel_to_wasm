@@ -1,0 +1,3 @@
+Sobre o projeto: Estou desenvolvedo o Catch de forma dinamica enquanto max e antonio fazem o snake ( em turnos )...
+O catch é um jogo que já existe na open_spiel, além de ser um jogo que eu gostava muito de jogar lá em 2015 ~ 2016, o chamado OsuCatch!, é a mesma ideia do catch só que em um estilo guitar_hero
+Obviamente, caso seja preciso eu coloco as mesmas funcionalidades legais que existem no osuCatch!

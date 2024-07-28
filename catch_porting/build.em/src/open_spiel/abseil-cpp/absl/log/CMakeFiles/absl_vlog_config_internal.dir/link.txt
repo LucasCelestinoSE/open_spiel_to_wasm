@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_vlog_config_internal.a CMakeFiles/absl_vlog_config_internal.dir/internal/vlog_config.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_vlog_config_internal.a

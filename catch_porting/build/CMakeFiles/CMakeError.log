@@ -1,0 +1,25 @@
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX20 failed with the following output:
+Change Dir: /home/teste/trabalho/sdl-test/rpg_game/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d1cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d1cb.dir/build.make CMakeFiles/cmTC_4d1cb.dir/build
+gmake[1]: Entering directory '/home/teste/trabalho/sdl-test/rpg_game/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d1cb.dir/src.cxx.o
+/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX20   -o CMakeFiles/cmTC_4d1cb.dir/src.cxx.o -c /home/teste/trabalho/sdl-test/rpg_game/build/CMakeFiles/CMakeTmp/src.cxx
+/home/teste/trabalho/sdl-test/rpg_game/build/CMakeFiles/CMakeTmp/src.cxx:6:4: error: #error "The compiler defaults or is configured for C++ < 20"
+    6 | #  error "The compiler defaults or is configured for C++ < 20"
+      |    ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_4d1cb.dir/build.make:78: CMakeFiles/cmTC_4d1cb.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/teste/trabalho/sdl-test/rpg_game/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4d1cb/fast] Error 2
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 202002L
+#    error "The compiler defaults or is configured for C++ < 20"
+#  endif
+#elif __cplusplus < 202002L
+#  error "The compiler defaults or is configured for C++ < 20"
+#endif
+int main() { return 0; }
+

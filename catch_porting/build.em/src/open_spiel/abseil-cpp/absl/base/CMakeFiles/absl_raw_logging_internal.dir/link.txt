@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_raw_logging_internal.a CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_raw_logging_internal.a

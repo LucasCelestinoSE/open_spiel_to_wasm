@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_kernel_timeout_internal.a CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_kernel_timeout_internal.a

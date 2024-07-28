@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_hashtablez_sampler.a CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_hashtablez_sampler.a

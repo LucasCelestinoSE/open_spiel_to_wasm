@@ -1,0 +1,1 @@
+/home/teste/emsdk/upstream/emscripten/em++ -s USE_SDL_IMAGE=2 -s USE_SDL_TTF=2 @CMakeFiles/Catch.dir/objects1.rsp -o Catch.js @CMakeFiles/Catch.dir/linklibs.rsp

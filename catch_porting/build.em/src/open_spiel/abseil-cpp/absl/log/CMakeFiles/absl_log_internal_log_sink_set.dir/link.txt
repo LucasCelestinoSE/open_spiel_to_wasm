@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_log_internal_log_sink_set.a CMakeFiles/absl_log_internal_log_sink_set.dir/internal/log_sink_set.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_log_internal_log_sink_set.a

@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_crc_internal.a CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_crc_internal.a

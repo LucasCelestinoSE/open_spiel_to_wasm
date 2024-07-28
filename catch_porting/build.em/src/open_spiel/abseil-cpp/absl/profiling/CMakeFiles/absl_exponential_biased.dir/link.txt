@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_exponential_biased.a CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_exponential_biased.a

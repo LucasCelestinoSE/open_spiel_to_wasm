@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_failure_signal_handler.a CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_failure_signal_handler.a

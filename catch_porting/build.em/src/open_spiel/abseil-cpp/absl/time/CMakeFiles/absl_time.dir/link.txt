@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_time.a CMakeFiles/absl_time.dir/civil_time.cc.o CMakeFiles/absl_time.dir/clock.cc.o CMakeFiles/absl_time.dir/duration.cc.o CMakeFiles/absl_time.dir/format.cc.o CMakeFiles/absl_time.dir/time.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_time.a

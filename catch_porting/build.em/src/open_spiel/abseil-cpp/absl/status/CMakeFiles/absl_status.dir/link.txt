@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_status.a CMakeFiles/absl_status.dir/internal/status_internal.cc.o CMakeFiles/absl_status.dir/status.cc.o CMakeFiles/absl_status.dir/status_payload_printer.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_status.a

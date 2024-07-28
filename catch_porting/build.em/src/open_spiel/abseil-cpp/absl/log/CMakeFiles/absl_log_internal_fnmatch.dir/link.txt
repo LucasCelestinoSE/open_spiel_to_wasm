@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_log_internal_fnmatch.a CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_log_internal_fnmatch.a

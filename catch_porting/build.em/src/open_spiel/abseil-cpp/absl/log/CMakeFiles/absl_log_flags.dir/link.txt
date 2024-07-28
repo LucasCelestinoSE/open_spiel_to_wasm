@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_log_flags.a CMakeFiles/absl_log_flags.dir/flags.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_log_flags.a

@@ -1,0 +1,26 @@
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX20 failed with the following output:
+Change Dir: /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08529/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08529.dir/build.make CMakeFiles/cmTC_08529.dir/build
+gmake[1]: Entering directory '/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_08529.dir/src.cxx.o
+/home/teste/emsdk/upstream/emscripten/em++ -DABSL_INTERNAL_AT_LEAST_CXX20   -MD -MT CMakeFiles/cmTC_08529.dir/src.cxx.o -MF CMakeFiles/cmTC_08529.dir/src.cxx.o.d -o CMakeFiles/cmTC_08529.dir/src.cxx.o -c /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles/CMakeTmp/src.cxx
+/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles/CMakeTmp/src.cxx:6:4: error: "The compiler defaults or is configured for C++ < 20"
+    6 | #  error "The compiler defaults or is configured for C++ < 20"
+      |    ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_08529.dir/build.make:79: CMakeFiles/cmTC_08529.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_08529/fast] Error 2
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 202002L
+#    error "The compiler defaults or is configured for C++ < 20"
+#  endif
+#elif __cplusplus < 202002L
+#  error "The compiler defaults or is configured for C++ < 20"
+#endif
+int main() { return 0; }
+

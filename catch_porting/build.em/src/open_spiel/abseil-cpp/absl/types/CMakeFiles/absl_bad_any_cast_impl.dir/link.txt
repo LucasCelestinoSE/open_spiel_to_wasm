@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_bad_any_cast_impl.a CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_bad_any_cast_impl.a

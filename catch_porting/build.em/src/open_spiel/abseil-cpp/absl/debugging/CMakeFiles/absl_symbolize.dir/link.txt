@@ -1,0 +1,2 @@
+/home/teste/emsdk/upstream/emscripten/emar qc libabsl_symbolize.a CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+/home/teste/emsdk/upstream/emscripten/emranlib libabsl_symbolize.a
