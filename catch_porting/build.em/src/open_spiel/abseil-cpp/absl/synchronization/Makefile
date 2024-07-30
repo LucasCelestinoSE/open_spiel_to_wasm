@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/synchronization//CMakeFiles/progress.marks
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/synchronization//CMakeFiles/progress.marks
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/clean
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_graphcycles_internal: src/open_spiel/abseil-cpp/absl/synchronization/CMakeF
 
 # fast build rule for target.
 absl_graphcycles_internal/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build
 .PHONY : absl_graphcycles_internal/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ absl_kernel_timeout_internal: src/open_spiel/abseil-cpp/absl/synchronization/CMa
 
 # fast build rule for target.
 absl_kernel_timeout_internal/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build
 .PHONY : absl_kernel_timeout_internal/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ absl_synchronization: src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/
 
 # fast build rule for target.
 absl_synchronization/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build
 .PHONY : absl_synchronization/fast
 
 barrier.o: barrier.cc.o
@@ -163,7 +163,7 @@ barrier.o: barrier.cc.o
 
 # target to build an object file
 barrier.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
 .PHONY : barrier.cc.o
 
 barrier.i: barrier.cc.i
@@ -171,7 +171,7 @@ barrier.i: barrier.cc.i
 
 # target to preprocess a source file
 barrier.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.i
 .PHONY : barrier.cc.i
 
 barrier.s: barrier.cc.s
@@ -179,7 +179,7 @@ barrier.s: barrier.cc.s
 
 # target to generate assembly for a file
 barrier.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.s
 .PHONY : barrier.cc.s
 
 blocking_counter.o: blocking_counter.cc.o
@@ -187,7 +187,7 @@ blocking_counter.o: blocking_counter.cc.o
 
 # target to build an object file
 blocking_counter.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
 .PHONY : blocking_counter.cc.o
 
 blocking_counter.i: blocking_counter.cc.i
@@ -195,7 +195,7 @@ blocking_counter.i: blocking_counter.cc.i
 
 # target to preprocess a source file
 blocking_counter.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.i
 .PHONY : blocking_counter.cc.i
 
 blocking_counter.s: blocking_counter.cc.s
@@ -203,7 +203,7 @@ blocking_counter.s: blocking_counter.cc.s
 
 # target to generate assembly for a file
 blocking_counter.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.s
 .PHONY : blocking_counter.cc.s
 
 internal/create_thread_identity.o: internal/create_thread_identity.cc.o
@@ -211,7 +211,7 @@ internal/create_thread_identity.o: internal/create_thread_identity.cc.o
 
 # target to build an object file
 internal/create_thread_identity.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
 .PHONY : internal/create_thread_identity.cc.o
 
 internal/create_thread_identity.i: internal/create_thread_identity.cc.i
@@ -219,7 +219,7 @@ internal/create_thread_identity.i: internal/create_thread_identity.cc.i
 
 # target to preprocess a source file
 internal/create_thread_identity.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.i
 .PHONY : internal/create_thread_identity.cc.i
 
 internal/create_thread_identity.s: internal/create_thread_identity.cc.s
@@ -227,7 +227,7 @@ internal/create_thread_identity.s: internal/create_thread_identity.cc.s
 
 # target to generate assembly for a file
 internal/create_thread_identity.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.s
 .PHONY : internal/create_thread_identity.cc.s
 
 internal/futex_waiter.o: internal/futex_waiter.cc.o
@@ -235,7 +235,7 @@ internal/futex_waiter.o: internal/futex_waiter.cc.o
 
 # target to build an object file
 internal/futex_waiter.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
 .PHONY : internal/futex_waiter.cc.o
 
 internal/futex_waiter.i: internal/futex_waiter.cc.i
@@ -243,7 +243,7 @@ internal/futex_waiter.i: internal/futex_waiter.cc.i
 
 # target to preprocess a source file
 internal/futex_waiter.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.i
 .PHONY : internal/futex_waiter.cc.i
 
 internal/futex_waiter.s: internal/futex_waiter.cc.s
@@ -251,7 +251,7 @@ internal/futex_waiter.s: internal/futex_waiter.cc.s
 
 # target to generate assembly for a file
 internal/futex_waiter.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.s
 .PHONY : internal/futex_waiter.cc.s
 
 internal/graphcycles.o: internal/graphcycles.cc.o
@@ -259,7 +259,7 @@ internal/graphcycles.o: internal/graphcycles.cc.o
 
 # target to build an object file
 internal/graphcycles.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
 .PHONY : internal/graphcycles.cc.o
 
 internal/graphcycles.i: internal/graphcycles.cc.i
@@ -267,7 +267,7 @@ internal/graphcycles.i: internal/graphcycles.cc.i
 
 # target to preprocess a source file
 internal/graphcycles.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.i
 .PHONY : internal/graphcycles.cc.i
 
 internal/graphcycles.s: internal/graphcycles.cc.s
@@ -275,7 +275,7 @@ internal/graphcycles.s: internal/graphcycles.cc.s
 
 # target to generate assembly for a file
 internal/graphcycles.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.s
 .PHONY : internal/graphcycles.cc.s
 
 internal/kernel_timeout.o: internal/kernel_timeout.cc.o
@@ -283,7 +283,7 @@ internal/kernel_timeout.o: internal/kernel_timeout.cc.o
 
 # target to build an object file
 internal/kernel_timeout.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
 .PHONY : internal/kernel_timeout.cc.o
 
 internal/kernel_timeout.i: internal/kernel_timeout.cc.i
@@ -291,7 +291,7 @@ internal/kernel_timeout.i: internal/kernel_timeout.cc.i
 
 # target to preprocess a source file
 internal/kernel_timeout.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.i
 .PHONY : internal/kernel_timeout.cc.i
 
 internal/kernel_timeout.s: internal/kernel_timeout.cc.s
@@ -299,7 +299,7 @@ internal/kernel_timeout.s: internal/kernel_timeout.cc.s
 
 # target to generate assembly for a file
 internal/kernel_timeout.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.s
 .PHONY : internal/kernel_timeout.cc.s
 
 internal/per_thread_sem.o: internal/per_thread_sem.cc.o
@@ -307,7 +307,7 @@ internal/per_thread_sem.o: internal/per_thread_sem.cc.o
 
 # target to build an object file
 internal/per_thread_sem.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
 .PHONY : internal/per_thread_sem.cc.o
 
 internal/per_thread_sem.i: internal/per_thread_sem.cc.i
@@ -315,7 +315,7 @@ internal/per_thread_sem.i: internal/per_thread_sem.cc.i
 
 # target to preprocess a source file
 internal/per_thread_sem.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.i
 .PHONY : internal/per_thread_sem.cc.i
 
 internal/per_thread_sem.s: internal/per_thread_sem.cc.s
@@ -323,7 +323,7 @@ internal/per_thread_sem.s: internal/per_thread_sem.cc.s
 
 # target to generate assembly for a file
 internal/per_thread_sem.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.s
 .PHONY : internal/per_thread_sem.cc.s
 
 internal/pthread_waiter.o: internal/pthread_waiter.cc.o
@@ -331,7 +331,7 @@ internal/pthread_waiter.o: internal/pthread_waiter.cc.o
 
 # target to build an object file
 internal/pthread_waiter.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
 .PHONY : internal/pthread_waiter.cc.o
 
 internal/pthread_waiter.i: internal/pthread_waiter.cc.i
@@ -339,7 +339,7 @@ internal/pthread_waiter.i: internal/pthread_waiter.cc.i
 
 # target to preprocess a source file
 internal/pthread_waiter.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.i
 .PHONY : internal/pthread_waiter.cc.i
 
 internal/pthread_waiter.s: internal/pthread_waiter.cc.s
@@ -347,7 +347,7 @@ internal/pthread_waiter.s: internal/pthread_waiter.cc.s
 
 # target to generate assembly for a file
 internal/pthread_waiter.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.s
 .PHONY : internal/pthread_waiter.cc.s
 
 internal/sem_waiter.o: internal/sem_waiter.cc.o
@@ -355,7 +355,7 @@ internal/sem_waiter.o: internal/sem_waiter.cc.o
 
 # target to build an object file
 internal/sem_waiter.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
 .PHONY : internal/sem_waiter.cc.o
 
 internal/sem_waiter.i: internal/sem_waiter.cc.i
@@ -363,7 +363,7 @@ internal/sem_waiter.i: internal/sem_waiter.cc.i
 
 # target to preprocess a source file
 internal/sem_waiter.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.i
 .PHONY : internal/sem_waiter.cc.i
 
 internal/sem_waiter.s: internal/sem_waiter.cc.s
@@ -371,7 +371,7 @@ internal/sem_waiter.s: internal/sem_waiter.cc.s
 
 # target to generate assembly for a file
 internal/sem_waiter.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.s
 .PHONY : internal/sem_waiter.cc.s
 
 internal/stdcpp_waiter.o: internal/stdcpp_waiter.cc.o
@@ -379,7 +379,7 @@ internal/stdcpp_waiter.o: internal/stdcpp_waiter.cc.o
 
 # target to build an object file
 internal/stdcpp_waiter.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
 .PHONY : internal/stdcpp_waiter.cc.o
 
 internal/stdcpp_waiter.i: internal/stdcpp_waiter.cc.i
@@ -387,7 +387,7 @@ internal/stdcpp_waiter.i: internal/stdcpp_waiter.cc.i
 
 # target to preprocess a source file
 internal/stdcpp_waiter.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.i
 .PHONY : internal/stdcpp_waiter.cc.i
 
 internal/stdcpp_waiter.s: internal/stdcpp_waiter.cc.s
@@ -395,7 +395,7 @@ internal/stdcpp_waiter.s: internal/stdcpp_waiter.cc.s
 
 # target to generate assembly for a file
 internal/stdcpp_waiter.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.s
 .PHONY : internal/stdcpp_waiter.cc.s
 
 internal/waiter_base.o: internal/waiter_base.cc.o
@@ -403,7 +403,7 @@ internal/waiter_base.o: internal/waiter_base.cc.o
 
 # target to build an object file
 internal/waiter_base.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
 .PHONY : internal/waiter_base.cc.o
 
 internal/waiter_base.i: internal/waiter_base.cc.i
@@ -411,7 +411,7 @@ internal/waiter_base.i: internal/waiter_base.cc.i
 
 # target to preprocess a source file
 internal/waiter_base.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.i
 .PHONY : internal/waiter_base.cc.i
 
 internal/waiter_base.s: internal/waiter_base.cc.s
@@ -419,7 +419,7 @@ internal/waiter_base.s: internal/waiter_base.cc.s
 
 # target to generate assembly for a file
 internal/waiter_base.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.s
 .PHONY : internal/waiter_base.cc.s
 
 internal/win32_waiter.o: internal/win32_waiter.cc.o
@@ -427,7 +427,7 @@ internal/win32_waiter.o: internal/win32_waiter.cc.o
 
 # target to build an object file
 internal/win32_waiter.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
 .PHONY : internal/win32_waiter.cc.o
 
 internal/win32_waiter.i: internal/win32_waiter.cc.i
@@ -435,7 +435,7 @@ internal/win32_waiter.i: internal/win32_waiter.cc.i
 
 # target to preprocess a source file
 internal/win32_waiter.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.i
 .PHONY : internal/win32_waiter.cc.i
 
 internal/win32_waiter.s: internal/win32_waiter.cc.s
@@ -443,7 +443,7 @@ internal/win32_waiter.s: internal/win32_waiter.cc.s
 
 # target to generate assembly for a file
 internal/win32_waiter.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.s
 .PHONY : internal/win32_waiter.cc.s
 
 mutex.o: mutex.cc.o
@@ -451,7 +451,7 @@ mutex.o: mutex.cc.o
 
 # target to build an object file
 mutex.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
 .PHONY : mutex.cc.o
 
 mutex.i: mutex.cc.i
@@ -459,7 +459,7 @@ mutex.i: mutex.cc.i
 
 # target to preprocess a source file
 mutex.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.i
 .PHONY : mutex.cc.i
 
 mutex.s: mutex.cc.s
@@ -467,7 +467,7 @@ mutex.s: mutex.cc.s
 
 # target to generate assembly for a file
 mutex.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.s
 .PHONY : mutex.cc.s
 
 notification.o: notification.cc.o
@@ -475,7 +475,7 @@ notification.o: notification.cc.o
 
 # target to build an object file
 notification.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
 .PHONY : notification.cc.o
 
 notification.i: notification.cc.i
@@ -483,7 +483,7 @@ notification.i: notification.cc.i
 
 # target to preprocess a source file
 notification.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.i
 .PHONY : notification.cc.i
 
 notification.s: notification.cc.s
@@ -491,7 +491,7 @@ notification.s: notification.cc.s
 
 # target to generate assembly for a file
 notification.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make src/open_spiel/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.s
 .PHONY : notification.cc.s
 
 # Help Target
@@ -558,6 +558,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

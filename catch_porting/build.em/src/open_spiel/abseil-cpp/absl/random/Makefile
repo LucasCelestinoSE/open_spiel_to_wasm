@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/random//CMakeFiles/progress.marks
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/random//CMakeFiles/progress.marks
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/clean
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_random_distributions: src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl
 
 # fast build rule for target.
 absl_random_distributions/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build
 .PHONY : absl_random_distributions/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ absl_random_seed_gen_exception: src/open_spiel/abseil-cpp/absl/random/CMakeFiles
 
 # fast build rule for target.
 absl_random_seed_gen_exception/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build
 .PHONY : absl_random_seed_gen_exception/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ absl_random_seed_sequences: src/open_spiel/abseil-cpp/absl/random/CMakeFiles/abs
 
 # fast build rule for target.
 absl_random_seed_sequences/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build
 .PHONY : absl_random_seed_sequences/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ absl_random_internal_seed_material: src/open_spiel/abseil-cpp/absl/random/CMakeF
 
 # fast build rule for target.
 absl_random_internal_seed_material/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build
 .PHONY : absl_random_internal_seed_material/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ absl_random_internal_pool_urbg: src/open_spiel/abseil-cpp/absl/random/CMakeFiles
 
 # fast build rule for target.
 absl_random_internal_pool_urbg/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build
 .PHONY : absl_random_internal_pool_urbg/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ absl_random_internal_platform: src/open_spiel/abseil-cpp/absl/random/CMakeFiles/
 
 # fast build rule for target.
 absl_random_internal_platform/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build
 .PHONY : absl_random_internal_platform/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ absl_random_internal_randen: src/open_spiel/abseil-cpp/absl/random/CMakeFiles/ab
 
 # fast build rule for target.
 absl_random_internal_randen/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build
 .PHONY : absl_random_internal_randen/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ absl_random_internal_randen_slow: src/open_spiel/abseil-cpp/absl/random/CMakeFil
 
 # fast build rule for target.
 absl_random_internal_randen_slow/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build
 .PHONY : absl_random_internal_randen_slow/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ absl_random_internal_randen_hwaes: src/open_spiel/abseil-cpp/absl/random/CMakeFi
 
 # fast build rule for target.
 absl_random_internal_randen_hwaes/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build
 .PHONY : absl_random_internal_randen_hwaes/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ absl_random_internal_randen_hwaes_impl: src/open_spiel/abseil-cpp/absl/random/CM
 
 # fast build rule for target.
 absl_random_internal_randen_hwaes_impl/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build
 .PHONY : absl_random_internal_randen_hwaes_impl/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule
 
 # Convenience name for target.
@@ -267,7 +267,7 @@ absl_random_internal_distribution_test_util: src/open_spiel/abseil-cpp/absl/rand
 
 # fast build rule for target.
 absl_random_internal_distribution_test_util/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build
 .PHONY : absl_random_internal_distribution_test_util/fast
 
 discrete_distribution.o: discrete_distribution.cc.o
@@ -275,7 +275,7 @@ discrete_distribution.o: discrete_distribution.cc.o
 
 # target to build an object file
 discrete_distribution.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o
 .PHONY : discrete_distribution.cc.o
 
 discrete_distribution.i: discrete_distribution.cc.i
@@ -283,7 +283,7 @@ discrete_distribution.i: discrete_distribution.cc.i
 
 # target to preprocess a source file
 discrete_distribution.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.i
 .PHONY : discrete_distribution.cc.i
 
 discrete_distribution.s: discrete_distribution.cc.s
@@ -291,7 +291,7 @@ discrete_distribution.s: discrete_distribution.cc.s
 
 # target to generate assembly for a file
 discrete_distribution.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.s
 .PHONY : discrete_distribution.cc.s
 
 gaussian_distribution.o: gaussian_distribution.cc.o
@@ -299,7 +299,7 @@ gaussian_distribution.o: gaussian_distribution.cc.o
 
 # target to build an object file
 gaussian_distribution.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o
 .PHONY : gaussian_distribution.cc.o
 
 gaussian_distribution.i: gaussian_distribution.cc.i
@@ -307,7 +307,7 @@ gaussian_distribution.i: gaussian_distribution.cc.i
 
 # target to preprocess a source file
 gaussian_distribution.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.i
 .PHONY : gaussian_distribution.cc.i
 
 gaussian_distribution.s: gaussian_distribution.cc.s
@@ -315,7 +315,7 @@ gaussian_distribution.s: gaussian_distribution.cc.s
 
 # target to generate assembly for a file
 gaussian_distribution.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.s
 .PHONY : gaussian_distribution.cc.s
 
 internal/chi_square.o: internal/chi_square.cc.o
@@ -323,7 +323,7 @@ internal/chi_square.o: internal/chi_square.cc.o
 
 # target to build an object file
 internal/chi_square.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.o
 .PHONY : internal/chi_square.cc.o
 
 internal/chi_square.i: internal/chi_square.cc.i
@@ -331,7 +331,7 @@ internal/chi_square.i: internal/chi_square.cc.i
 
 # target to preprocess a source file
 internal/chi_square.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.i
 .PHONY : internal/chi_square.cc.i
 
 internal/chi_square.s: internal/chi_square.cc.s
@@ -339,7 +339,7 @@ internal/chi_square.s: internal/chi_square.cc.s
 
 # target to generate assembly for a file
 internal/chi_square.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.s
 .PHONY : internal/chi_square.cc.s
 
 internal/distribution_test_util.o: internal/distribution_test_util.cc.o
@@ -347,7 +347,7 @@ internal/distribution_test_util.o: internal/distribution_test_util.cc.o
 
 # target to build an object file
 internal/distribution_test_util.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.o
 .PHONY : internal/distribution_test_util.cc.o
 
 internal/distribution_test_util.i: internal/distribution_test_util.cc.i
@@ -355,7 +355,7 @@ internal/distribution_test_util.i: internal/distribution_test_util.cc.i
 
 # target to preprocess a source file
 internal/distribution_test_util.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.i
 .PHONY : internal/distribution_test_util.cc.i
 
 internal/distribution_test_util.s: internal/distribution_test_util.cc.s
@@ -363,7 +363,7 @@ internal/distribution_test_util.s: internal/distribution_test_util.cc.s
 
 # target to generate assembly for a file
 internal/distribution_test_util.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.s
 .PHONY : internal/distribution_test_util.cc.s
 
 internal/pool_urbg.o: internal/pool_urbg.cc.o
@@ -371,7 +371,7 @@ internal/pool_urbg.o: internal/pool_urbg.cc.o
 
 # target to build an object file
 internal/pool_urbg.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/internal/pool_urbg.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/internal/pool_urbg.cc.o
 .PHONY : internal/pool_urbg.cc.o
 
 internal/pool_urbg.i: internal/pool_urbg.cc.i
@@ -379,7 +379,7 @@ internal/pool_urbg.i: internal/pool_urbg.cc.i
 
 # target to preprocess a source file
 internal/pool_urbg.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/internal/pool_urbg.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/internal/pool_urbg.cc.i
 .PHONY : internal/pool_urbg.cc.i
 
 internal/pool_urbg.s: internal/pool_urbg.cc.s
@@ -387,7 +387,7 @@ internal/pool_urbg.s: internal/pool_urbg.cc.s
 
 # target to generate assembly for a file
 internal/pool_urbg.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/internal/pool_urbg.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_pool_urbg.dir/internal/pool_urbg.cc.s
 .PHONY : internal/pool_urbg.cc.s
 
 internal/randen.o: internal/randen.cc.o
@@ -395,7 +395,7 @@ internal/randen.o: internal/randen.cc.o
 
 # target to build an object file
 internal/randen.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o
 .PHONY : internal/randen.cc.o
 
 internal/randen.i: internal/randen.cc.i
@@ -403,7 +403,7 @@ internal/randen.i: internal/randen.cc.i
 
 # target to preprocess a source file
 internal/randen.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.i
 .PHONY : internal/randen.cc.i
 
 internal/randen.s: internal/randen.cc.s
@@ -411,7 +411,7 @@ internal/randen.s: internal/randen.cc.s
 
 # target to generate assembly for a file
 internal/randen.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.s
 .PHONY : internal/randen.cc.s
 
 internal/randen_detect.o: internal/randen_detect.cc.o
@@ -419,7 +419,7 @@ internal/randen_detect.o: internal/randen_detect.cc.o
 
 # target to build an object file
 internal/randen_detect.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.o
 .PHONY : internal/randen_detect.cc.o
 
 internal/randen_detect.i: internal/randen_detect.cc.i
@@ -427,7 +427,7 @@ internal/randen_detect.i: internal/randen_detect.cc.i
 
 # target to preprocess a source file
 internal/randen_detect.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.i
 .PHONY : internal/randen_detect.cc.i
 
 internal/randen_detect.s: internal/randen_detect.cc.s
@@ -435,7 +435,7 @@ internal/randen_detect.s: internal/randen_detect.cc.s
 
 # target to generate assembly for a file
 internal/randen_detect.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.s
 .PHONY : internal/randen_detect.cc.s
 
 internal/randen_hwaes.o: internal/randen_hwaes.cc.o
@@ -443,7 +443,7 @@ internal/randen_hwaes.o: internal/randen_hwaes.cc.o
 
 # target to build an object file
 internal/randen_hwaes.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.o
 .PHONY : internal/randen_hwaes.cc.o
 
 internal/randen_hwaes.i: internal/randen_hwaes.cc.i
@@ -451,7 +451,7 @@ internal/randen_hwaes.i: internal/randen_hwaes.cc.i
 
 # target to preprocess a source file
 internal/randen_hwaes.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.i
 .PHONY : internal/randen_hwaes.cc.i
 
 internal/randen_hwaes.s: internal/randen_hwaes.cc.s
@@ -459,7 +459,7 @@ internal/randen_hwaes.s: internal/randen_hwaes.cc.s
 
 # target to generate assembly for a file
 internal/randen_hwaes.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.s
 .PHONY : internal/randen_hwaes.cc.s
 
 internal/randen_round_keys.o: internal/randen_round_keys.cc.o
@@ -467,7 +467,7 @@ internal/randen_round_keys.o: internal/randen_round_keys.cc.o
 
 # target to build an object file
 internal/randen_round_keys.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o
 .PHONY : internal/randen_round_keys.cc.o
 
 internal/randen_round_keys.i: internal/randen_round_keys.cc.i
@@ -475,7 +475,7 @@ internal/randen_round_keys.i: internal/randen_round_keys.cc.i
 
 # target to preprocess a source file
 internal/randen_round_keys.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.i
 .PHONY : internal/randen_round_keys.cc.i
 
 internal/randen_round_keys.s: internal/randen_round_keys.cc.s
@@ -483,7 +483,7 @@ internal/randen_round_keys.s: internal/randen_round_keys.cc.s
 
 # target to generate assembly for a file
 internal/randen_round_keys.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.s
 .PHONY : internal/randen_round_keys.cc.s
 
 internal/randen_slow.o: internal/randen_slow.cc.o
@@ -491,7 +491,7 @@ internal/randen_slow.o: internal/randen_slow.cc.o
 
 # target to build an object file
 internal/randen_slow.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o
 .PHONY : internal/randen_slow.cc.o
 
 internal/randen_slow.i: internal/randen_slow.cc.i
@@ -499,7 +499,7 @@ internal/randen_slow.i: internal/randen_slow.cc.i
 
 # target to preprocess a source file
 internal/randen_slow.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.i
 .PHONY : internal/randen_slow.cc.i
 
 internal/randen_slow.s: internal/randen_slow.cc.s
@@ -507,7 +507,7 @@ internal/randen_slow.s: internal/randen_slow.cc.s
 
 # target to generate assembly for a file
 internal/randen_slow.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.s
 .PHONY : internal/randen_slow.cc.s
 
 internal/seed_material.o: internal/seed_material.cc.o
@@ -515,7 +515,7 @@ internal/seed_material.o: internal/seed_material.cc.o
 
 # target to build an object file
 internal/seed_material.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.o
 .PHONY : internal/seed_material.cc.o
 
 internal/seed_material.i: internal/seed_material.cc.i
@@ -523,7 +523,7 @@ internal/seed_material.i: internal/seed_material.cc.i
 
 # target to preprocess a source file
 internal/seed_material.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.i
 .PHONY : internal/seed_material.cc.i
 
 internal/seed_material.s: internal/seed_material.cc.s
@@ -531,7 +531,7 @@ internal/seed_material.s: internal/seed_material.cc.s
 
 # target to generate assembly for a file
 internal/seed_material.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.s
 .PHONY : internal/seed_material.cc.s
 
 seed_gen_exception.o: seed_gen_exception.cc.o
@@ -539,7 +539,7 @@ seed_gen_exception.o: seed_gen_exception.cc.o
 
 # target to build an object file
 seed_gen_exception.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o
 .PHONY : seed_gen_exception.cc.o
 
 seed_gen_exception.i: seed_gen_exception.cc.i
@@ -547,7 +547,7 @@ seed_gen_exception.i: seed_gen_exception.cc.i
 
 # target to preprocess a source file
 seed_gen_exception.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.i
 .PHONY : seed_gen_exception.cc.i
 
 seed_gen_exception.s: seed_gen_exception.cc.s
@@ -555,7 +555,7 @@ seed_gen_exception.s: seed_gen_exception.cc.s
 
 # target to generate assembly for a file
 seed_gen_exception.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.s
 .PHONY : seed_gen_exception.cc.s
 
 seed_sequences.o: seed_sequences.cc.o
@@ -563,7 +563,7 @@ seed_sequences.o: seed_sequences.cc.o
 
 # target to build an object file
 seed_sequences.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.o
 .PHONY : seed_sequences.cc.o
 
 seed_sequences.i: seed_sequences.cc.i
@@ -571,7 +571,7 @@ seed_sequences.i: seed_sequences.cc.i
 
 # target to preprocess a source file
 seed_sequences.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.i
 .PHONY : seed_sequences.cc.i
 
 seed_sequences.s: seed_sequences.cc.s
@@ -579,7 +579,7 @@ seed_sequences.s: seed_sequences.cc.s
 
 # target to generate assembly for a file
 seed_sequences.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/build.make src/open_spiel/abseil-cpp/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.s
 .PHONY : seed_sequences.cc.s
 
 # Help Target
@@ -651,6 +651,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
