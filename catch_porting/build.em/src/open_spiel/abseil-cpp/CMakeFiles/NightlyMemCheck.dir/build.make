@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 # Utility rule file for NightlyMemCheck.
 
@@ -67,7 +67,7 @@ include src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/compiler_depend
 include src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/progress.make
 
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp && /usr/bin/ctest -D NightlyMemCheck
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp && /usr/bin/ctest -D NightlyMemCheck
 
 NightlyMemCheck: src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck
 NightlyMemCheck: src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build.make
@@ -78,10 +78,10 @@ src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build: NightlyMemCheck
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build
 
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp && $(CMAKE_COMMAND) -P CMakeFiles/NightlyMemCheck.dir/cmake_clean.cmake
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp && $(CMAKE_COMMAND) -P CMakeFiles/NightlyMemCheck.dir/cmake_clean.cmake
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/clean
 
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teste/trabalho/sdl-test/rpg_game /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp /home/teste/trabalho/sdl-test/rpg_game/build.em /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/depend
 

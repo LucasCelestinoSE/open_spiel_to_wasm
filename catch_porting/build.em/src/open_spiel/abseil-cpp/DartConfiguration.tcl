@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp
-BuildDirectory: /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp
+SourceDirectory: /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp
+BuildDirectory: /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp"
+ConfigureCommand: "/usr/bin/cmake" "/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

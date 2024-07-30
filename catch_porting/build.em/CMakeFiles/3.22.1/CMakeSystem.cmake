@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.5.0-41-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.5.0-44-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-41-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-44-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/teste/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake")

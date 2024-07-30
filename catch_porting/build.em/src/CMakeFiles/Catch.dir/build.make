@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Catch.dir/depend.make
@@ -73,91 +73,91 @@ src/CMakeFiles/Catch.dir/main.o: src/CMakeFiles/Catch.dir/flags.make
 src/CMakeFiles/Catch.dir/main.o: src/CMakeFiles/Catch.dir/includes_CXX.rsp
 src/CMakeFiles/Catch.dir/main.o: ../src/main.cc
 src/CMakeFiles/Catch.dir/main.o: src/CMakeFiles/Catch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Catch.dir/main.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/main.o -MF CMakeFiles/Catch.dir/main.o.d -o CMakeFiles/Catch.dir/main.o -c /home/teste/trabalho/sdl-test/rpg_game/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Catch.dir/main.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/main.o -MF CMakeFiles/Catch.dir/main.o.d -o CMakeFiles/Catch.dir/main.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/main.cc
 
 src/CMakeFiles/Catch.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Catch.dir/main.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/main.cc > CMakeFiles/Catch.dir/main.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/main.cc > CMakeFiles/Catch.dir/main.i
 
 src/CMakeFiles/Catch.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Catch.dir/main.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/main.cc -o CMakeFiles/Catch.dir/main.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/main.cc -o CMakeFiles/Catch.dir/main.s
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o: src/CMakeFiles/Catch.dir/flags.make
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o: src/CMakeFiles/Catch.dir/includes_CXX.rsp
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o: ../src/open_spiel/includes/spiel_utils.cc
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o: src/CMakeFiles/Catch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o -MF CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o -c /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/spiel_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o -MF CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/spiel_utils.cc
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/spiel_utils.cc > CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/spiel_utils.cc > CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.i
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/spiel_utils.cc -o CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/spiel_utils.cc -o CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.s
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o: src/CMakeFiles/Catch.dir/flags.make
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o: src/CMakeFiles/Catch.dir/includes_CXX.rsp
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o: ../src/open_spiel/includes/spiel.cc
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o: src/CMakeFiles/Catch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o -MF CMakeFiles/Catch.dir/open_spiel/includes/spiel.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/spiel.o -c /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/spiel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o -MF CMakeFiles/Catch.dir/open_spiel/includes/spiel.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/spiel.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/spiel.cc
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Catch.dir/open_spiel/includes/spiel.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/spiel.cc > CMakeFiles/Catch.dir/open_spiel/includes/spiel.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/spiel.cc > CMakeFiles/Catch.dir/open_spiel/includes/spiel.i
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Catch.dir/open_spiel/includes/spiel.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/spiel.cc -o CMakeFiles/Catch.dir/open_spiel/includes/spiel.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/spiel.cc -o CMakeFiles/Catch.dir/open_spiel/includes/spiel.s
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o: src/CMakeFiles/Catch.dir/flags.make
 src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o: src/CMakeFiles/Catch.dir/includes_CXX.rsp
 src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o: ../src/open_spiel/includes/observer.cc
 src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o: src/CMakeFiles/Catch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o -MF CMakeFiles/Catch.dir/open_spiel/includes/observer.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/observer.o -c /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/observer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o -MF CMakeFiles/Catch.dir/open_spiel/includes/observer.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/observer.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/observer.cc
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/observer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Catch.dir/open_spiel/includes/observer.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/observer.cc > CMakeFiles/Catch.dir/open_spiel/includes/observer.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/observer.cc > CMakeFiles/Catch.dir/open_spiel/includes/observer.i
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/observer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Catch.dir/open_spiel/includes/observer.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/observer.cc -o CMakeFiles/Catch.dir/open_spiel/includes/observer.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/observer.cc -o CMakeFiles/Catch.dir/open_spiel/includes/observer.s
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o: src/CMakeFiles/Catch.dir/flags.make
 src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o: src/CMakeFiles/Catch.dir/includes_CXX.rsp
 src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o: ../src/open_spiel/includes/game_parameters.cc
 src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o: src/CMakeFiles/Catch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o -MF CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o -c /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/game_parameters.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o -MF CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/game_parameters.cc
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/game_parameters.cc > CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/game_parameters.cc > CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.i
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/game_parameters.cc -o CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/game_parameters.cc -o CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.s
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o: src/CMakeFiles/Catch.dir/flags.make
 src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o: src/CMakeFiles/Catch.dir/includes_CXX.rsp
 src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o: ../src/open_spiel/includes/catch.cc
 src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o: src/CMakeFiles/Catch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o -MF CMakeFiles/Catch.dir/open_spiel/includes/catch.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/catch.o -c /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/catch.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o -MF CMakeFiles/Catch.dir/open_spiel/includes/catch.o.d -o CMakeFiles/Catch.dir/open_spiel/includes/catch.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/catch.cc
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/catch.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Catch.dir/open_spiel/includes/catch.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/catch.cc > CMakeFiles/Catch.dir/open_spiel/includes/catch.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/catch.cc > CMakeFiles/Catch.dir/open_spiel/includes/catch.i
 
 src/CMakeFiles/Catch.dir/open_spiel/includes/catch.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Catch.dir/open_spiel/includes/catch.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/includes/catch.cc -o CMakeFiles/Catch.dir/open_spiel/includes/catch.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/includes/catch.cc -o CMakeFiles/Catch.dir/open_spiel/includes/catch.s
 
 # Object files for target Catch
 Catch_OBJECTS = \
@@ -245,18 +245,18 @@ src/Catch.js: src/open_spiel/abseil-cpp/absl/random/libabsl_random_seed_gen_exce
 src/Catch.js: src/CMakeFiles/Catch.dir/linklibs.rsp
 src/Catch.js: src/CMakeFiles/Catch.dir/objects1.rsp
 src/Catch.js: src/CMakeFiles/Catch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Catch.js"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Catch.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Catch.js"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Catch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Catch.dir/build: src/Catch.js
 .PHONY : src/CMakeFiles/Catch.dir/build
 
 src/CMakeFiles/Catch.dir/clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src && $(CMAKE_COMMAND) -P CMakeFiles/Catch.dir/cmake_clean.cmake
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src && $(CMAKE_COMMAND) -P CMakeFiles/Catch.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Catch.dir/clean
 
 src/CMakeFiles/Catch.dir/depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teste/trabalho/sdl-test/rpg_game /home/teste/trabalho/sdl-test/rpg_game/src /home/teste/trabalho/sdl-test/rpg_game/build.em /home/teste/trabalho/sdl-test/rpg_game/build.em/src /home/teste/trabalho/sdl-test/rpg_game/build.em/src/CMakeFiles/Catch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/CMakeFiles/Catch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Catch.dir/depend
 

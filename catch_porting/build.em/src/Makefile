@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles /home/teste/trabalho/sdl-test/rpg_game/build.em/src//CMakeFiles/progress.marks
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src//CMakeFiles/progress.marks
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Catch.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Catch.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Catch.dir/rule
 .PHONY : src/CMakeFiles/Catch.dir/rule
 
 # Convenience name for target.
@@ -127,97 +127,97 @@ Catch: src/CMakeFiles/Catch.dir/rule
 
 # fast build rule for target.
 Catch/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/build
 .PHONY : Catch/fast
 
 # target to build an object file
 main.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/main.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/main.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/main.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/main.s
 .PHONY : main.s
 
 # target to build an object file
 open_spiel/includes/catch.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/catch.o
 .PHONY : open_spiel/includes/catch.o
 
 # target to preprocess a source file
 open_spiel/includes/catch.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/catch.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/catch.i
 .PHONY : open_spiel/includes/catch.i
 
 # target to generate assembly for a file
 open_spiel/includes/catch.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/catch.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/catch.s
 .PHONY : open_spiel/includes/catch.s
 
 # target to build an object file
 open_spiel/includes/game_parameters.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.o
 .PHONY : open_spiel/includes/game_parameters.o
 
 # target to preprocess a source file
 open_spiel/includes/game_parameters.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.i
 .PHONY : open_spiel/includes/game_parameters.i
 
 # target to generate assembly for a file
 open_spiel/includes/game_parameters.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/game_parameters.s
 .PHONY : open_spiel/includes/game_parameters.s
 
 # target to build an object file
 open_spiel/includes/observer.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/observer.o
 .PHONY : open_spiel/includes/observer.o
 
 # target to preprocess a source file
 open_spiel/includes/observer.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/observer.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/observer.i
 .PHONY : open_spiel/includes/observer.i
 
 # target to generate assembly for a file
 open_spiel/includes/observer.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/observer.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/observer.s
 .PHONY : open_spiel/includes/observer.s
 
 # target to build an object file
 open_spiel/includes/spiel.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.o
 .PHONY : open_spiel/includes/spiel.o
 
 # target to preprocess a source file
 open_spiel/includes/spiel.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.i
 .PHONY : open_spiel/includes/spiel.i
 
 # target to generate assembly for a file
 open_spiel/includes/spiel.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel.s
 .PHONY : open_spiel/includes/spiel.s
 
 # target to build an object file
 open_spiel/includes/spiel_utils.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.o
 .PHONY : open_spiel/includes/spiel_utils.o
 
 # target to preprocess a source file
 open_spiel/includes/spiel_utils.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.i
 .PHONY : open_spiel/includes/spiel_utils.i
 
 # target to generate assembly for a file
 open_spiel/includes/spiel_utils.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Catch.dir/build.make src/CMakeFiles/Catch.dir/open_spiel/includes/spiel_utils.s
 .PHONY : open_spiel/includes/spiel_utils.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

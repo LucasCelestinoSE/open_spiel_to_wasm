@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp//CMakeFiles/progress.marks
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp//CMakeFiles/progress.marks
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/clean
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ Experimental: src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/rule
 
 # fast build rule for target.
 Experimental/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ Nightly: src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/rule
 
 # fast build rule for target.
 Nightly/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/Nightly.dir/build
 .PHONY : Nightly/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ Continuous: src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/rule
 
 # fast build rule for target.
 Continuous/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/Continuous.dir/build
 .PHONY : Continuous/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ NightlyMemoryCheck: src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/
 
 # fast build rule for target.
 NightlyMemoryCheck/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemoryCheck.dir/build
 .PHONY : NightlyMemoryCheck/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ NightlyStart: src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/rule
 
 # fast build rule for target.
 NightlyStart/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyStart.dir/build
 .PHONY : NightlyStart/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ NightlyUpdate: src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/rule
 
 # fast build rule for target.
 NightlyUpdate/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyUpdate.dir/build
 .PHONY : NightlyUpdate/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ NightlyConfigure: src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/rule
 
 # fast build rule for target.
 NightlyConfigure/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyConfigure.dir/build
 .PHONY : NightlyConfigure/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ NightlyBuild: src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/rule
 
 # fast build rule for target.
 NightlyBuild/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyBuild.dir/build
 .PHONY : NightlyBuild/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ NightlyTest: src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/rule
 
 # fast build rule for target.
 NightlyTest/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyTest.dir/build
 .PHONY : NightlyTest/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ NightlyCoverage: src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/rule
 
 # fast build rule for target.
 NightlyCoverage/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyCoverage.dir/build
 .PHONY : NightlyCoverage/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ NightlyMemCheck: src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemCheck/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -281,12 +281,12 @@ NightlySubmit: src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/rule
 
 # fast build rule for target.
 NightlySubmit/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/NightlySubmit.dir/build
 .PHONY : NightlySubmit/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -295,12 +295,12 @@ ExperimentalStart: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/ru
 
 # fast build rule for target.
 ExperimentalStart/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalStart.dir/build
 .PHONY : ExperimentalStart/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -309,12 +309,12 @@ ExperimentalUpdate: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/
 
 # fast build rule for target.
 ExperimentalUpdate/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalUpdate.dir/build
 .PHONY : ExperimentalUpdate/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -323,12 +323,12 @@ ExperimentalConfigure: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigur
 
 # fast build rule for target.
 ExperimentalConfigure/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalConfigure.dir/build
 .PHONY : ExperimentalConfigure/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -337,12 +337,12 @@ ExperimentalBuild: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/ru
 
 # fast build rule for target.
 ExperimentalBuild/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -351,12 +351,12 @@ ExperimentalTest: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/rule
 
 # fast build rule for target.
 ExperimentalTest/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalTest.dir/build
 .PHONY : ExperimentalTest/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -365,12 +365,12 @@ ExperimentalCoverage: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.
 
 # fast build rule for target.
 ExperimentalCoverage/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalCoverage.dir/build
 .PHONY : ExperimentalCoverage/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -379,12 +379,12 @@ ExperimentalMemCheck: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.
 
 # fast build rule for target.
 ExperimentalMemCheck/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalMemCheck.dir/build
 .PHONY : ExperimentalMemCheck/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ ExperimentalSubmit: src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/
 
 # fast build rule for target.
 ExperimentalSubmit/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ExperimentalSubmit.dir/build
 .PHONY : ExperimentalSubmit/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -407,12 +407,12 @@ ContinuousStart: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/rule
 
 # fast build rule for target.
 ContinuousStart/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousStart.dir/build
 .PHONY : ContinuousStart/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -421,12 +421,12 @@ ContinuousUpdate: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/rule
 
 # fast build rule for target.
 ContinuousUpdate/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -435,12 +435,12 @@ ContinuousConfigure: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.di
 
 # fast build rule for target.
 ContinuousConfigure/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ ContinuousBuild: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/rule
 
 # fast build rule for target.
 ContinuousBuild/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -463,12 +463,12 @@ ContinuousTest: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/rule
 
 # fast build rule for target.
 ContinuousTest/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousTest.dir/build
 .PHONY : ContinuousTest/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ ContinuousCoverage: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/
 
 # fast build rule for target.
 ContinuousCoverage/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -491,12 +491,12 @@ ContinuousMemCheck: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/
 
 # fast build rule for target.
 ContinuousMemCheck/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousMemCheck.dir/build
 .PHONY : ContinuousMemCheck/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -505,7 +505,7 @@ ContinuousSubmit: src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/rule
 
 # fast build rule for target.
 ContinuousSubmit/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/build.make src/open_spiel/abseil-cpp/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
 # Help Target
@@ -555,6 +555,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
