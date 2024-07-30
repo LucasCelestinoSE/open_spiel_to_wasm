@@ -1,6 +1,6 @@
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/utf8_for_code_point.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/utf8_for_code_point.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/utf8_for_code_point.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/utf8_for_code_point.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
@@ -12,7 +12,7 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
@@ -35,6 +35,6 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_nullptr_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h

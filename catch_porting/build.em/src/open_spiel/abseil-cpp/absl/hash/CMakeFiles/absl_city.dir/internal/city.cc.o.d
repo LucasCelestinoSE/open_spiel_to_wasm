@@ -1,6 +1,6 @@
 src/open_spiel/abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/hash/internal/city.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/hash/internal/city.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/hash/internal/city.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/hash/internal/city.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
@@ -235,13 +235,13 @@ src/open_spiel/abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o:
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
@@ -656,16 +656,16 @@ src/open_spiel/abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o:
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator_construction.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/endian.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/casts.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/identity.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/macros.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/endian.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/casts.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/identity.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/macros.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/attributes.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/optimization.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/port.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/meta/type_traits.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/attributes.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/optimization.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/port.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/meta/type_traits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_negate.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/bind.h \
@@ -768,6 +768,6 @@ src/open_spiel/abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o:
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/unaligned_access.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/nullability.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/nullability_impl.h
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/unaligned_access.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/nullability.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/nullability_impl.h

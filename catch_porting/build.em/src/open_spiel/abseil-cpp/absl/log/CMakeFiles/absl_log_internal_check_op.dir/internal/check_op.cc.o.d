@@ -1,6 +1,6 @@
 src/open_spiel/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/check_op.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/check_op.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/check_op.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/check_op.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
@@ -706,24 +706,24 @@ src/open_spiel/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/int
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/sstream \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/istream \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/attributes.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/attributes.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/optimization.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/optimization.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/nullguard.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/nullguard.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/nullstream.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/nullstream.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/posix.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/log_severity.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/strings/string_view.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/log_severity.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/strings/string_view.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/nullability.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/nullability_impl.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/meta/type_traits.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/nullability.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/nullability_impl.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/meta/type_traits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_negate.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/bind.h \
@@ -775,18 +775,18 @@ src/open_spiel/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/int
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/throw_delegate.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/macros.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/port.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/strip.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/log_message.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/errno_saver.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/log_entry.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/internal/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/throw_delegate.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/macros.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/port.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/strip.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/log_message.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/errno_saver.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/log_entry.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/internal/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/time/time.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/time/time.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/sys/time.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/chrono \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/calendar.h \
@@ -805,25 +805,25 @@ src/open_spiel/abseil-cpp/absl/log/CMakeFiles/absl_log_internal_check_op.dir/int
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/year_month_day.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/year_month_weekday.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/literals.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/time/civil_time.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time_detail.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/time/internal/cctz/include/cctz/time_zone.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/types/span.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/types/internal/span.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/algorithm/algorithm.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/log/log_sink.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/strings/has_absl_stringify.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/strings/str_cat.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/strings/internal/resize_uninitialized.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/strings/internal/stringify_sink.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/strings/numbers.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/endian.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/casts.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/identity.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/unaligned_access.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/numeric/bits.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/numeric/internal/bits.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/numeric/int128.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/types/compare.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/numeric/int128_have_intrinsic.inc
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/time/civil_time.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time_detail.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/time/internal/cctz/include/cctz/time_zone.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/types/span.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/types/internal/span.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/algorithm/algorithm.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/log/log_sink.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/strings/has_absl_stringify.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/strings/str_cat.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/strings/internal/resize_uninitialized.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/strings/internal/stringify_sink.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/strings/numbers.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/endian.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/casts.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/identity.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/unaligned_access.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/numeric/bits.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/numeric/internal/bits.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/numeric/int128.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/types/compare.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/numeric/int128_have_intrinsic.inc

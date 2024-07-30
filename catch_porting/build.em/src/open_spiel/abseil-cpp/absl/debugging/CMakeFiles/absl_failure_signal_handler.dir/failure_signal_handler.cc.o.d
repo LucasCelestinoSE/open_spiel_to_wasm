@@ -1,7 +1,7 @@
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/failure_signal_handler.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/failure_signal_handler.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/failure_signal_handler.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/failure_signal_handler.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
@@ -30,8 +30,8 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_nullptr_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/sched.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h \
@@ -667,8 +667,8 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/attributes.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/raw_logging.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/attributes.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/raw_logging.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ios/fpos.h \
@@ -683,10 +683,10 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/atomic_hook.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/atomic_hook.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/log_severity.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/log_severity.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_code.h \
@@ -722,12 +722,12 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.
   /home/teste/emsdk/upstream/lib/clang/19/include/__stdarg___va_copy.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stdarg_va_copy.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/macros.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/optimization.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/port.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/sysinfo.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/macros.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/optimization.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/port.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/sysinfo.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/examine_stack.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/stacktrace.h
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/examine_stack.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/stacktrace.h

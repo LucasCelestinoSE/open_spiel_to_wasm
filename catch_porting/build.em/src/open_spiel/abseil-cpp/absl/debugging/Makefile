@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/debugging//CMakeFiles/progress.marks
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/debugging//CMakeFiles/progress.marks
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/clean
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/preinstall
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_stacktrace: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stackt
 
 # fast build rule for target.
 absl_stacktrace/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build
 .PHONY : absl_stacktrace/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ absl_symbolize: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symboli
 
 # fast build rule for target.
 absl_symbolize/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build
 .PHONY : absl_symbolize/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ absl_examine_stack: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_exa
 
 # fast build rule for target.
 absl_examine_stack/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build
 .PHONY : absl_examine_stack/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ absl_failure_signal_handler: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles
 
 # fast build rule for target.
 absl_failure_signal_handler/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build
 .PHONY : absl_failure_signal_handler/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ absl_debugging_internal: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/abs
 
 # fast build rule for target.
 absl_debugging_internal/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build
 .PHONY : absl_debugging_internal/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ absl_demangle_internal: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl
 
 # fast build rule for target.
 absl_demangle_internal/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build
 .PHONY : absl_demangle_internal/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ absl_decode_rust_punycode: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/a
 
 # fast build rule for target.
 absl_decode_rust_punycode/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build
 .PHONY : absl_decode_rust_punycode/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ absl_demangle_rust: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_dem
 
 # fast build rule for target.
 absl_demangle_rust/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build
 .PHONY : absl_demangle_rust/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ absl_utf8_for_code_point: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/ab
 
 # fast build rule for target.
 absl_utf8_for_code_point/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build
 .PHONY : absl_utf8_for_code_point/fast
 
 # Convenience name for target.
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/rule:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/rule
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/rule
 .PHONY : src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/rule
 
 # Convenience name for target.
@@ -253,7 +253,7 @@ absl_leak_check: src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_c
 
 # fast build rule for target.
 absl_leak_check/fast:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build
 .PHONY : absl_leak_check/fast
 
 failure_signal_handler.o: failure_signal_handler.cc.o
@@ -261,7 +261,7 @@ failure_signal_handler.o: failure_signal_handler.cc.o
 
 # target to build an object file
 failure_signal_handler.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o
 .PHONY : failure_signal_handler.cc.o
 
 failure_signal_handler.i: failure_signal_handler.cc.i
@@ -269,7 +269,7 @@ failure_signal_handler.i: failure_signal_handler.cc.i
 
 # target to preprocess a source file
 failure_signal_handler.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.i
 .PHONY : failure_signal_handler.cc.i
 
 failure_signal_handler.s: failure_signal_handler.cc.s
@@ -277,7 +277,7 @@ failure_signal_handler.s: failure_signal_handler.cc.s
 
 # target to generate assembly for a file
 failure_signal_handler.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.s
 .PHONY : failure_signal_handler.cc.s
 
 internal/address_is_readable.o: internal/address_is_readable.cc.o
@@ -285,7 +285,7 @@ internal/address_is_readable.o: internal/address_is_readable.cc.o
 
 # target to build an object file
 internal/address_is_readable.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
 .PHONY : internal/address_is_readable.cc.o
 
 internal/address_is_readable.i: internal/address_is_readable.cc.i
@@ -293,7 +293,7 @@ internal/address_is_readable.i: internal/address_is_readable.cc.i
 
 # target to preprocess a source file
 internal/address_is_readable.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.i
 .PHONY : internal/address_is_readable.cc.i
 
 internal/address_is_readable.s: internal/address_is_readable.cc.s
@@ -301,7 +301,7 @@ internal/address_is_readable.s: internal/address_is_readable.cc.s
 
 # target to generate assembly for a file
 internal/address_is_readable.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.s
 .PHONY : internal/address_is_readable.cc.s
 
 internal/decode_rust_punycode.o: internal/decode_rust_punycode.cc.o
@@ -309,7 +309,7 @@ internal/decode_rust_punycode.o: internal/decode_rust_punycode.cc.o
 
 # target to build an object file
 internal/decode_rust_punycode.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
 .PHONY : internal/decode_rust_punycode.cc.o
 
 internal/decode_rust_punycode.i: internal/decode_rust_punycode.cc.i
@@ -317,7 +317,7 @@ internal/decode_rust_punycode.i: internal/decode_rust_punycode.cc.i
 
 # target to preprocess a source file
 internal/decode_rust_punycode.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.i
 .PHONY : internal/decode_rust_punycode.cc.i
 
 internal/decode_rust_punycode.s: internal/decode_rust_punycode.cc.s
@@ -325,7 +325,7 @@ internal/decode_rust_punycode.s: internal/decode_rust_punycode.cc.s
 
 # target to generate assembly for a file
 internal/decode_rust_punycode.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.s
 .PHONY : internal/decode_rust_punycode.cc.s
 
 internal/demangle.o: internal/demangle.cc.o
@@ -333,7 +333,7 @@ internal/demangle.o: internal/demangle.cc.o
 
 # target to build an object file
 internal/demangle.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
 .PHONY : internal/demangle.cc.o
 
 internal/demangle.i: internal/demangle.cc.i
@@ -341,7 +341,7 @@ internal/demangle.i: internal/demangle.cc.i
 
 # target to preprocess a source file
 internal/demangle.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.i
 .PHONY : internal/demangle.cc.i
 
 internal/demangle.s: internal/demangle.cc.s
@@ -349,7 +349,7 @@ internal/demangle.s: internal/demangle.cc.s
 
 # target to generate assembly for a file
 internal/demangle.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.s
 .PHONY : internal/demangle.cc.s
 
 internal/demangle_rust.o: internal/demangle_rust.cc.o
@@ -357,7 +357,7 @@ internal/demangle_rust.o: internal/demangle_rust.cc.o
 
 # target to build an object file
 internal/demangle_rust.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o
 .PHONY : internal/demangle_rust.cc.o
 
 internal/demangle_rust.i: internal/demangle_rust.cc.i
@@ -365,7 +365,7 @@ internal/demangle_rust.i: internal/demangle_rust.cc.i
 
 # target to preprocess a source file
 internal/demangle_rust.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.i
 .PHONY : internal/demangle_rust.cc.i
 
 internal/demangle_rust.s: internal/demangle_rust.cc.s
@@ -373,7 +373,7 @@ internal/demangle_rust.s: internal/demangle_rust.cc.s
 
 # target to generate assembly for a file
 internal/demangle_rust.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.s
 .PHONY : internal/demangle_rust.cc.s
 
 internal/elf_mem_image.o: internal/elf_mem_image.cc.o
@@ -381,7 +381,7 @@ internal/elf_mem_image.o: internal/elf_mem_image.cc.o
 
 # target to build an object file
 internal/elf_mem_image.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
 .PHONY : internal/elf_mem_image.cc.o
 
 internal/elf_mem_image.i: internal/elf_mem_image.cc.i
@@ -389,7 +389,7 @@ internal/elf_mem_image.i: internal/elf_mem_image.cc.i
 
 # target to preprocess a source file
 internal/elf_mem_image.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.i
 .PHONY : internal/elf_mem_image.cc.i
 
 internal/elf_mem_image.s: internal/elf_mem_image.cc.s
@@ -397,7 +397,7 @@ internal/elf_mem_image.s: internal/elf_mem_image.cc.s
 
 # target to generate assembly for a file
 internal/elf_mem_image.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.s
 .PHONY : internal/elf_mem_image.cc.s
 
 internal/examine_stack.o: internal/examine_stack.cc.o
@@ -405,7 +405,7 @@ internal/examine_stack.o: internal/examine_stack.cc.o
 
 # target to build an object file
 internal/examine_stack.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o
 .PHONY : internal/examine_stack.cc.o
 
 internal/examine_stack.i: internal/examine_stack.cc.i
@@ -413,7 +413,7 @@ internal/examine_stack.i: internal/examine_stack.cc.i
 
 # target to preprocess a source file
 internal/examine_stack.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.i
 .PHONY : internal/examine_stack.cc.i
 
 internal/examine_stack.s: internal/examine_stack.cc.s
@@ -421,7 +421,7 @@ internal/examine_stack.s: internal/examine_stack.cc.s
 
 # target to generate assembly for a file
 internal/examine_stack.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.s
 .PHONY : internal/examine_stack.cc.s
 
 internal/utf8_for_code_point.o: internal/utf8_for_code_point.cc.o
@@ -429,7 +429,7 @@ internal/utf8_for_code_point.o: internal/utf8_for_code_point.cc.o
 
 # target to build an object file
 internal/utf8_for_code_point.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o
 .PHONY : internal/utf8_for_code_point.cc.o
 
 internal/utf8_for_code_point.i: internal/utf8_for_code_point.cc.i
@@ -437,7 +437,7 @@ internal/utf8_for_code_point.i: internal/utf8_for_code_point.cc.i
 
 # target to preprocess a source file
 internal/utf8_for_code_point.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.i
 .PHONY : internal/utf8_for_code_point.cc.i
 
 internal/utf8_for_code_point.s: internal/utf8_for_code_point.cc.s
@@ -445,7 +445,7 @@ internal/utf8_for_code_point.s: internal/utf8_for_code_point.cc.s
 
 # target to generate assembly for a file
 internal/utf8_for_code_point.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.s
 .PHONY : internal/utf8_for_code_point.cc.s
 
 internal/vdso_support.o: internal/vdso_support.cc.o
@@ -453,7 +453,7 @@ internal/vdso_support.o: internal/vdso_support.cc.o
 
 # target to build an object file
 internal/vdso_support.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
 .PHONY : internal/vdso_support.cc.o
 
 internal/vdso_support.i: internal/vdso_support.cc.i
@@ -461,7 +461,7 @@ internal/vdso_support.i: internal/vdso_support.cc.i
 
 # target to preprocess a source file
 internal/vdso_support.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.i
 .PHONY : internal/vdso_support.cc.i
 
 internal/vdso_support.s: internal/vdso_support.cc.s
@@ -469,7 +469,7 @@ internal/vdso_support.s: internal/vdso_support.cc.s
 
 # target to generate assembly for a file
 internal/vdso_support.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.s
 .PHONY : internal/vdso_support.cc.s
 
 leak_check.o: leak_check.cc.o
@@ -477,7 +477,7 @@ leak_check.o: leak_check.cc.o
 
 # target to build an object file
 leak_check.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o
 .PHONY : leak_check.cc.o
 
 leak_check.i: leak_check.cc.i
@@ -485,7 +485,7 @@ leak_check.i: leak_check.cc.i
 
 # target to preprocess a source file
 leak_check.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.i
 .PHONY : leak_check.cc.i
 
 leak_check.s: leak_check.cc.s
@@ -493,7 +493,7 @@ leak_check.s: leak_check.cc.s
 
 # target to generate assembly for a file
 leak_check.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.s
 .PHONY : leak_check.cc.s
 
 stacktrace.o: stacktrace.cc.o
@@ -501,7 +501,7 @@ stacktrace.o: stacktrace.cc.o
 
 # target to build an object file
 stacktrace.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
 .PHONY : stacktrace.cc.o
 
 stacktrace.i: stacktrace.cc.i
@@ -509,7 +509,7 @@ stacktrace.i: stacktrace.cc.i
 
 # target to preprocess a source file
 stacktrace.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.i
 .PHONY : stacktrace.cc.i
 
 stacktrace.s: stacktrace.cc.s
@@ -517,7 +517,7 @@ stacktrace.s: stacktrace.cc.s
 
 # target to generate assembly for a file
 stacktrace.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.s
 .PHONY : stacktrace.cc.s
 
 symbolize.o: symbolize.cc.o
@@ -525,7 +525,7 @@ symbolize.o: symbolize.cc.o
 
 # target to build an object file
 symbolize.cc.o:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
 .PHONY : symbolize.cc.o
 
 symbolize.i: symbolize.cc.i
@@ -533,7 +533,7 @@ symbolize.i: symbolize.cc.i
 
 # target to preprocess a source file
 symbolize.cc.i:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.i
 .PHONY : symbolize.cc.i
 
 symbolize.s: symbolize.cc.s
@@ -541,7 +541,7 @@ symbolize.s: symbolize.cc.s
 
 # target to generate assembly for a file
 symbolize.cc.s:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(MAKE) $(MAKESILENT) -f src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/build.make src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.s
 .PHONY : symbolize.cc.s
 
 # Help Target
@@ -609,6 +609,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
@@ -669,10 +669,10 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/i
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator_construction.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle_rust.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle_rust.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cxxabi.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__cxxabi_config.h

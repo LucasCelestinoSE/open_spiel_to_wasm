@@ -1,4 +1,4 @@
-# Install script for directory: /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/functional
+# Install script for directory: /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/functional
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

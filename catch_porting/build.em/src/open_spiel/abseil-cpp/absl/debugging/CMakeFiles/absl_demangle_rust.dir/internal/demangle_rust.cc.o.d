@@ -1,6 +1,6 @@
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle_rust.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle_rust.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle_rust.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/demangle_rust.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
@@ -23,15 +23,15 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/inter
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_nullptr_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
@@ -167,10 +167,10 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/inter
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_identity.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/attributes.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/decode_rust_punycode.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/nullability.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/internal/nullability_impl.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/attributes.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/decode_rust_punycode.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/nullability.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/internal/nullability_impl.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/addressof.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/align.h \
@@ -417,7 +417,7 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_rust.dir/inter
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/sortable.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/unreachable_sentinel.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/wrap_iter.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/meta/type_traits.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/meta/type_traits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_negate.h \

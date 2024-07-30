@@ -1,6 +1,6 @@
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/leak_check.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/leak_check.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/leak_check.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/leak_check.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
@@ -23,14 +23,14 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_che
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_nullptr_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/attributes.h
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/attributes.h

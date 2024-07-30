@@ -1,7 +1,7 @@
 src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o: \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/stacktrace.cc \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/stacktrace.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/stacktrace.cc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/stacktrace.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/config.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
@@ -30,8 +30,8 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktra
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_nullptr_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h \
   /home/teste/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/options.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/options.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/policy_checks.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/aliases.h \
@@ -234,9 +234,9 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktra
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/is_eq.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/synth_three_way.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/attributes.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/port.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/base/optimization.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/attributes.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/port.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/base/optimization.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
@@ -287,8 +287,8 @@ src/open_spiel/abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktra
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/stacktrace_config.h \
-  /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/debugging/internal/stacktrace_emscripten-inl.inc \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/stacktrace_config.h \
+  /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/debugging/internal/stacktrace_emscripten-inl.inc \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
   /home/teste/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \

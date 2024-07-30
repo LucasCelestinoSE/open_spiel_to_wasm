@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teste/trabalho/sdl-test/rpg_game
+CMAKE_SOURCE_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teste/trabalho/sdl-test/rpg_game/build.em
+CMAKE_BINARY_DIR = /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em
 
 # Include any dependencies generated for this target.
 include src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/depend.make
@@ -73,16 +73,16 @@ src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_conf
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o: src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/includes_CXX.rsp
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o: ../src/open_spiel/abseil-cpp/absl/flags/usage_config.cc
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o: src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o -MF CMakeFiles/absl_flags_config.dir/usage_config.cc.o.d -o CMakeFiles/absl_flags_config.dir/usage_config.cc.o -c /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/flags/usage_config.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o -MF CMakeFiles/absl_flags_config.dir/usage_config.cc.o.d -o CMakeFiles/absl_flags_config.dir/usage_config.cc.o -c /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/flags/usage_config.cc
 
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/absl_flags_config.dir/usage_config.cc.i"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/flags/usage_config.cc > CMakeFiles/absl_flags_config.dir/usage_config.cc.i
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/flags/usage_config.cc > CMakeFiles/absl_flags_config.dir/usage_config.cc.i
 
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/absl_flags_config.dir/usage_config.cc.s"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/flags/usage_config.cc -o CMakeFiles/absl_flags_config.dir/usage_config.cc.s
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags && /home/teste/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/flags/usage_config.cc -o CMakeFiles/absl_flags_config.dir/usage_config.cc.s
 
 # Object files for target absl_flags_config
 absl_flags_config_OBJECTS = \
@@ -94,19 +94,19 @@ absl_flags_config_EXTERNAL_OBJECTS =
 src/open_spiel/abseil-cpp/absl/flags/libabsl_flags_config.a: src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o
 src/open_spiel/abseil-cpp/absl/flags/libabsl_flags_config.a: src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/build.make
 src/open_spiel/abseil-cpp/absl/flags/libabsl_flags_config.a: src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/teste/trabalho/sdl-test/rpg_game/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabsl_flags_config.a"
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags_config.dir/cmake_clean_target.cmake
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_flags_config.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabsl_flags_config.a"
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags_config.dir/cmake_clean_target.cmake
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_flags_config.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/build: src/open_spiel/abseil-cpp/absl/flags/libabsl_flags_config.a
 .PHONY : src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/build
 
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/clean:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags_config.dir/cmake_clean.cmake
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags_config.dir/cmake_clean.cmake
 .PHONY : src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/clean
 
 src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/depend:
-	cd /home/teste/trabalho/sdl-test/rpg_game/build.em && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teste/trabalho/sdl-test/rpg_game /home/teste/trabalho/sdl-test/rpg_game/src/open_spiel/abseil-cpp/absl/flags /home/teste/trabalho/sdl-test/rpg_game/build.em /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags /home/teste/trabalho/sdl-test/rpg_game/build.em/src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/src/open_spiel/abseil-cpp/absl/flags /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags /home/teste/Desktop/portings/open_spiel_to_wasm/catch_porting/build.em/src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/open_spiel/abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/depend
 
