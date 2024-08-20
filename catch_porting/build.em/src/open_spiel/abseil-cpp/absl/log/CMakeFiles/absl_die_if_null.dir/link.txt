@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_die_if_null.a CMakeFiles/absl_die_if_null.dir/die_if_null.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_die_if_null.a

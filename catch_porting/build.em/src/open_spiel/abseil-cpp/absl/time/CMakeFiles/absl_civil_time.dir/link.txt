@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_civil_time.a CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_civil_time.a

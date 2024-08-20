@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_crc_cord_state.a CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_crc_cord_state.a

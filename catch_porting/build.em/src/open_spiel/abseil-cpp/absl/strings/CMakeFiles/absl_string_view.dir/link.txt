@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_string_view.a CMakeFiles/absl_string_view.dir/string_view.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_string_view.a

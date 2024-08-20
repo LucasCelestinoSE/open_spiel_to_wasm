@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_examine_stack.a CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_examine_stack.a

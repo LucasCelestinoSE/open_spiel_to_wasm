@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_bad_optional_access.a CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_bad_optional_access.a

@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_strings_internal.a CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_strings_internal.a

@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_cordz_sample_token.a CMakeFiles/absl_cordz_sample_token.dir/internal/cordz_sample_token.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_cordz_sample_token.a

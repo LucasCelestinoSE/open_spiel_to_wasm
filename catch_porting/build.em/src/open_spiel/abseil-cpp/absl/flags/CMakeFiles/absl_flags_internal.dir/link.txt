@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_flags_internal.a CMakeFiles/absl_flags_internal.dir/internal/flag.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_flags_internal.a

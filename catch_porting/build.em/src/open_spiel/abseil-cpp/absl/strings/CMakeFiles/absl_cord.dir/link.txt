@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_cord.a CMakeFiles/absl_cord.dir/cord.cc.o CMakeFiles/absl_cord.dir/cord_analysis.cc.o CMakeFiles/absl_cord.dir/cord_buffer.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_cord.a

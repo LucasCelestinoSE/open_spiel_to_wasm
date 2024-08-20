@@ -1,2 +1,0 @@
-/home/teste/emsdk/upstream/emscripten/emar qc libabsl_decode_rust_punycode.a CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
-/home/teste/emsdk/upstream/emscripten/emranlib libabsl_decode_rust_punycode.a
